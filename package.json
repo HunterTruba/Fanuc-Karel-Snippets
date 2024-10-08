@@ -1,0 +1,26 @@
+{
+  "name": "fanuc-karel-snippets",
+  "displayName": "Fanuc Karel Snippets",
+  "description": "Snippets for Fanuc Karel",
+  "version": "0.0.1",
+  "publisher": "HunterTruba",
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/HunterTruba/Fanuc-Karel-Snippets"
+  },
+    "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.94.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "Karel",
+        "path": "./snippets/fanuc_karel_snippets.code-snippets"
+      }
+    ]
+  }
+}
